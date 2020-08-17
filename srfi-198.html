@@ -410,6 +410,9 @@ strings.
 <code>args</code>:
 The arguments handed to the Scheme procedure in which the status
 object is created.
+If there is no <code>'scheme-procedure</code> key, then arguments
+handed to the <code>'foreign-interface</code> key, or any suitable key
+defined in the <code>'convention</code>.
 For login functions, you want to omit reporting and logging plaintext
 passwords, and login names are also dangerous because users will
 sometimes accidentally enter their password first.
